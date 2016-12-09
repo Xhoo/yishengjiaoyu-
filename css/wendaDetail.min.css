@@ -1,0 +1,354 @@
+header {
+	width: 100%;
+	height: 4.4rem;
+	background-color: #00D8C9;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-ms-flex-wrap: wrap;
+	flex-wrap: wrap;
+	-webkit-box-pack: justify;
+	-ms-flex-pack: justify;
+	justify-content: space-between;
+	-webkit-box-align: center;
+	-ms-flex-align: center;
+	align-items: center
+}
+
+header span {
+	display: block;
+	width: 6%;
+	height: 2.2rem
+}
+
+.header-left {
+	background: #00D8C9 url("../img/back.png") no-repeat;
+	background-size: 100%;
+	margin-left: 1.2rem
+}
+
+.header-center {
+	width: 26%;
+	font-size: 1.8rem;
+	text-align: center;
+	line-height: 2.2rem;
+	color: #FFF
+}
+
+.header-right {
+	margin-right: 1.2rem;
+	width: 6%;
+	height: 2.2rem
+}
+
+.header-right input {
+	width: 100%;
+	height: 2.2rem;
+	background: url("../img/more.png") no-repeat;
+	background-size: 100%
+}
+
+.wall {
+	width: 100%;
+	height: auto;
+	padding: 0 1.2rem;
+	box-sizing: border-box
+}
+
+.content-msg {
+	margin: 2.8rem 0;
+	width: 100%;
+	height: 5.7rem;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-ms-flex-wrap: wrap;
+	flex-wrap: wrap;
+	-webkit-box-pack: justify;
+	-ms-flex-pack: justify;
+	justify-content: space-between
+}
+
+.content-msg>span {
+	display: block;
+	width: 16%;
+	height: 5.7rem;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-align: center;
+	-ms-flex-align: center;
+	align-items: center
+}
+
+.content-msg>span img {
+	width: 100%;
+	border-radius: 50%
+}
+
+.content-msg div {
+	width: 80%;
+	height: 5.7rem
+}
+
+.content-msg div section:nth-of-type(1) {
+	width: 100%;
+	height: 3.5rem;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-ms-flex-wrap: wrap;
+	flex-wrap: wrap
+}
+
+.content-msg div section:nth-of-type(1) span {
+	margin: auto 0
+}
+
+.content-name {
+	font-size: 1.5rem;
+	font-weight: bold;
+	line-height: 3.5rem;
+	margin-right: 0.85rem !important;
+	color: #242424
+}
+
+.content-sex {
+	width: 1.9rem;
+	height: 1.9rem
+}
+
+.content-sex img {
+	width: 1.9rem;
+	height: 1.9rem
+}
+
+.content-zhuanjiao {
+	width: 4rem;
+	height: 1.9rem
+}
+
+.content-zhuanjiao img {
+	height: 1.9rem;
+	margin-left: 0.55rem
+}
+
+.content-zhiwu,
+.content-ans {
+	font-size: 1.1rem;
+	color: #989898
+}
+
+.content-msg div section:nth-of-type(2) {
+	width: 100%;
+	height: 2.2rem;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack: justify;
+	-ms-flex-pack: justify;
+	justify-content: space-between
+}
+
+.content p {
+	width: 100%;
+	height: 4.35rem;
+	margin-bottom: 0.4rem;
+	line-height: 3.5rem;
+	font-size: 1.2rem;
+	color: #656565;
+	display: block;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis
+}
+
+.content-input {
+	position: relative
+}
+
+.content-input input {
+	width: 4.9rem;
+	height: 2.5rem;
+	background-color: #00D7C8;
+	position: absolute;
+	top: 31%;
+	right: 0;
+	border-radius: 8%;
+	font-size: 1.25rem;
+	color: #fff
+}
+
+.wall-p {
+	border-top: 1px solid #E1E1E1;
+	width: 100%;
+	height: auto;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	-ms-flex-direction: column;
+	flex-direction: column
+}
+
+.wall-p p {
+	width: 100%;
+	height: 4.45rem;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack: justify;
+	-ms-flex-pack: justify;
+	justify-content: space-between;
+	-webkit-box-align: center;
+	-ms-flex-align: center;
+	align-items: center;
+	border-bottom: 1px solid #E1E1E1
+}
+
+.wall-p p:nth-of-type(1) {
+	font-size: 1.3rem;
+	color: #989898
+}
+
+.wall-p p:nth-of-type(1) span:nth-of-type(2) {
+	color: #000
+}
+
+.wall-p p:nth-of-type(2) {
+	font-size: 1.3rem;
+	color: #FA4D4D
+}
+
+.wall-p p:nth-of-type(3) {
+	color: #4C4C4C;
+	font-size: 1.3rem
+}
+
+.yuyinmodel section {
+	width: 100%;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-align: center;
+	-ms-flex-align: center;
+	align-items: center;
+	border-bottom: 1px solid #E4E4E4
+}
+
+.yuyinmodel section:nth-of-type(1) {
+	height: 4.2rem;
+	font-size: 1.5rem;
+	font-weight: bold;
+	color: #000
+}
+
+.yuyinmodel section:nth-of-type(1) span:nth-of-type(2) {
+	height: 1.5rem;
+	line-height: 1.5rem;
+	font-size: 0.95rem;
+	color: #fff;
+	background-color: #00D7C8;
+	border-radius: 10%;
+	padding: 0 0.35rem;
+	margin-left: 1%
+}
+
+.yuyinmodel section:nth-of-type(2) {
+	height: 5.7rem
+}
+
+.yuyinmodel section:nth-of-type(2) img {
+	width: 16.2%;
+	border-radius: 50%
+}
+
+.video {
+	display: block;
+	vertical-align: middle;
+	display: inline-block;
+	width: 57%;
+	height: 3.1rem;
+	border-radius: 1.55rem;
+	background: #00D8C9 url("../img/video_kongbai.png") no-repeat center center;
+	background-size: 82%;
+	margin-left: 2%
+}
+
+.yuyinmodel section:nth-of-type(2) span:nth-of-type(2) {
+	width: 10%;
+	text-align: center;
+	color: #656565;
+	font-size: 1rem
+}
+
+.yuyinmodel section:nth-of-type(3) {
+	height: 3.5rem;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack: end;
+	-ms-flex-pack: end;
+	justify-content: flex-end;
+	-webkit-box-align: center;
+	-ms-flex-align: center;
+	align-items: center;
+	font-size: 0.9rem;
+	color: #989898
+}
+
+.yuyinmodel section:nth-of-type(3) span {
+	width: 2.85rem;
+	height: 0.9rem;
+	text-align: center;
+	position: relative
+}
+
+.yuyinmodel section:nth-of-type(3) img {
+	width: 1.75rem;
+	position: absolute;
+	top: -.5rem;
+	left: -2rem
+}
+
+.wall-pinglun {
+	width: 100%;
+	height: auto;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	-ms-flex-direction: column;
+	flex-direction: column;
+	-webkit-box-pack: start;
+	-ms-flex-pack: start;
+	justify-content: flex-start
+}
+
+.wall-pinglun p {
+	height: 2.1rem;
+	font-size: 1.15rem;
+	color: #989898
+}
+
+.wall-pinglun section:nth-of-type(1) {
+	width: 100%;
+	height: 6.45rem
+}
+
+.wall-pinglun section:nth-of-type(2) {
+	width: 100%;
+	height: 4.4rem;
+	background-color: #00D7C8;
+	color: #fff;
+	font-size: 1.65rem;
+	font-weight: bold;
+	text-align: center;
+	line-height: 4.4rem;
+	border-top-left-radius: 0.51rem;
+	border-bottom-left-radius: 0.51rem;
+	border-top-right-radius: 0.51rem;
+	border-bottom-right-radius: 0.51rem
+}

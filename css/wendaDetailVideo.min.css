@@ -1,0 +1,2 @@
+/*语音播放样式*/
+.audio{cursor:pointer;vertical-align:middle;display:inline-block;width:57%;height:3.1rem;border-radius:1.55rem;background:#00D8C9 url("../img/video_kongbai.png") no-repeat center center;background-size:82%}.audio-playing{cursor:pointer;vertical-align:middle;display:inline-block;width:57%;height:3.1rem;border-radius:1.55rem;background:#00D8C9 url("../img/video_kongbai.png") no-repeat center center;background-size:82%}

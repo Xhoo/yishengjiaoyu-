@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<style type="text/css">
+			.voice1 {
+				display: block;
+				width: 57%;
+				height: 3.1rem;
+				border-radius: 1.55rem;
+				z-index: 9;
+				background: #00D8C9 url(../img/video_03.png) no-repeat;
+				background-size: 82%;
+			}
+			
+		</style>
+	</head>
+
+	<body>
+		<span class="voice1">
+			<audio id="myAudio" preload="auto">
+		  		<source src="yinpin/夏小虎 - 这场名叫人生的旅途.mp3"  type="audio/mp3">
+			</audio>
+		</span>
+		
+		
+		<script src="http://libs.baidu.com/jquery/2.0.0/jquery.min.js"></script>
+		<script type="text/javascript">
+			$(".voice1").on("touchstart",function(){
+				var Audio=this.getElementsByTagName("audio")[0];
+				if (Audio.paused) {
+						Audio.play()
+				} else{
+					Audio.pause()
+				}
+			
+			})
+		</script>
+
+	</body>
+
+</html>
+<span class="voice1"><audio id="myAudio" preload="auto"><source src="yinpin/夏小虎 - 这场名叫人生的旅途.mp3"  type="audio/mp3"></audio></span>

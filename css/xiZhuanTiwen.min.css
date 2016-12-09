@@ -1,0 +1,389 @@
+header {
+	width: 100%;
+	height: 4.4rem;
+	background-color: #00D8C9;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-ms-flex-wrap: wrap;
+	flex-wrap: wrap;
+	-webkit-box-pack: justify;
+	-ms-flex-pack: justify;
+	justify-content: space-between;
+	-webkit-box-align: center;
+	-ms-flex-align: center;
+	align-items: center
+}
+
+header span {
+	display: block;
+	width: 6%;
+	height: 2.2rem
+}
+
+.header-left {
+	background: #00D8C9 url("../img/back.png") no-repeat;
+	background-size: 100%;
+	margin-left: 1.2rem
+}
+
+.header-center {
+	width: 26%;
+	font-size: 1.8rem;
+	text-align: center;
+	line-height: 2.2rem;
+	color: #FFF
+}
+
+.header-right {
+	margin-right: 1.2rem;
+	width: 6%;
+	height: 2.2rem
+}
+
+.header-right input {
+	width: 100%;
+	height: 2.2rem;
+	background: url("../img/more.png") no-repeat;
+	background-size: 100%
+}
+
+.wall {
+	width: 100%;
+	height: auto;
+	padding: 1.25rem 1.2rem 0;
+	box-sizing: border-box;
+	border-bottom: solid 1px #E4E4E4
+}
+
+.content-msg {
+	width: 100%;
+	height: 5.7rem;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-ms-flex-wrap: wrap;
+	flex-wrap: wrap;
+	-webkit-box-pack: justify;
+	-ms-flex-pack: justify;
+	justify-content: space-between;
+	padding-bottom: 1.85rem;
+	border-bottom: solid 1px #E4E4E4
+}
+
+.content-msg>span {
+	display: block;
+	width: 12.5%;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-align: center;
+	-ms-flex-align: center;
+	align-items: center
+}
+
+.content-msg>span img {
+	width: 100%;
+	border-radius: 50%;
+}
+
+.content-msg div {
+	width: 80%;
+	height: 5.7rem
+}
+
+.content-msg div section:nth-of-type(1) {
+	width: 100%;
+	height: 3.5rem;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-ms-flex-wrap: wrap;
+	flex-wrap: wrap;
+	border: none
+}
+
+.content-msg div section:nth-of-type(1) span {
+	margin: auto 0
+}
+
+.content-name {
+	font-size: 1.35rem;
+	font-weight: bold;
+	line-height: 3.5rem;
+	margin-right: 0.85rem !important;
+	color: #242424
+}
+
+.content-sex {
+	background-size: 100%;
+	width: 1.9rem;
+	height: 1.9rem;
+	margin-right: 0.55rem !important
+}
+
+.content-img img{
+	
+	width: 2rem;
+	/*height: 1.5rem;*/
+	border-radius: .5rem;
+}
+
+.content-zhiwu,
+.content-ans {
+	font-size: 1.1rem;
+	color: #989898;
+	font-weight: bold
+}
+
+.content-msg div section:nth-of-type(2) {
+	width: 100%;
+	height: 2.2rem;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack: justify;
+	-ms-flex-pack: justify;
+	justify-content: space-between;
+	border: none;
+}
+
+.oTextarea textarea {
+	width: 100%;
+	height: 13.75rem;
+	font-size: 1.3rem
+}
+
+textarea:-webkit-any-input-placeholder {
+	WebKit browsers color: #323232
+}
+
+.oTextarea {
+	width: 100%;
+	height: auto;
+	position: relative;
+	padding: 1.5rem 0 0
+}
+
+.oTextarea span {
+	height: ;
+	position: absolute;
+	top: 11.35rem;
+	right: 0;
+	font-size: 1.3rem;
+	color: #656565
+}
+
+#img {
+	width: 5.3rem;
+	height: 5.4rem;
+	margin: 2rem 0;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	-ms-flex-direction: column;
+	flex-direction: column;
+	-ms-flex-wrap: wrap;
+	flex-wrap: wrap
+}
+/*照片墙*/
+	
+	.t-ptw-main {
+		height: 12.5rem;
+		width: 100%;
+		padding: 5.2rem 0;
+	}
+	
+	.t-ptw_list {
+		width: 100%;
+		height: 100%;
+		display: -webkit-box;
+		display: -ms-flexbox;
+		display: flex;
+		-ms-flex-wrap: wrap;
+		    flex-wrap: wrap;
+		-webkit-box-align: center;
+		    -ms-flex-align: center;
+		        align-items: center;
+	}
+	
+	.t-ptw_list li {
+		width: 5.2rem;
+		height: 5.2rem;
+		margin-right: 3%;
+		position: relative;
+	}
+	.t-ptw_list li img{
+		width: 100%;
+		height: 100%;
+	}
+	.t-ptw_list li span{
+		display: block;
+		width: 1.8rem;
+		height: 1.8rem;
+		position: absolute;
+		top: -.5rem;
+		right:-.5rem ;
+		
+	}
+	.t-ptw_list li span img{
+		width: 100%;
+		height: 100%;
+	}
+	#user_url{
+		height: 100%;
+		width: 100%;
+		position: absolute;
+		top: 0;
+		left: 0;
+		z-index: 9;
+		opacity: 0;		
+	}
+	.t-ptw_list li:last-child{
+		position: relative;
+		width: 5.2rem;
+		height: 5.2rem;
+	}
+	.t-ptw_list li:last-child img{
+		height: 100%;
+		width: 100%;
+	}
+	
+	/*END照片墙*/
+.imgbox1 {
+	width: 5.2rem;
+	height: 5.2rem;
+	float: left;
+	margin-right: 2.25rem;
+	position: relative;
+	border: 1px solid red;
+	overflow: hidden;
+	border: none
+}
+
+.imgnum1 {
+	margin-top: 1rem
+}
+
+.imgnum {
+	width: 5.2rem;
+	height: 5.2rem;
+	background: url("../img/ic_uploading_photo.png") no-repeat;
+	background-size: 100%
+}
+
+.imgnum input,
+.imgnum1 input {
+	position: absolute;
+	opacity: 0
+}
+
+.imgnum img,
+.imgnum1 img {
+	width: 100%;
+	height: 100%
+}
+
+.close1 {
+	width: 1.8rem;
+	height: 1.8rem;
+	color: red;
+	display: none;
+	border-radius: 50%;
+	position: absolute;
+	top: 0;
+	right: 0
+}
+
+.close1 img {
+	width: 1.8rem;
+	height: 1.8rem
+}
+
+.filepath1 {
+	width: 5.2rem;
+	height: 5.2rem;
+	border: none
+}
+
+.erra {
+	width: 30%;
+	height: 3.4rem;
+	background-color: rgba(39, 40, 34, .7);
+	position: fixed;
+	bottom: 20%;
+	left: 35%;
+	border-radius: 2rem;
+	text-align: center;
+	font-size: 1.5rem;
+	line-height: 3.4rem;
+	color: #000;
+	display: none
+}
+
+.inputErra {
+	border-color: #f93a3a
+}
+
+.div-img {
+	width: 100%;
+	height: 5.25rem;
+	margin-bottom: 1.9rem;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex
+}
+
+. .div-input {
+	width: 100%;
+	padding: 4.5rem 1.2rem 0;
+	box-sizing: border-box
+}
+
+.div-input input {
+	width: 100%;
+	height: 4.4rem;
+	border-radius: 5%;
+	background-color: #00D7C8;
+	font-size: 1.6rem;
+	color: #fff
+}
+
+
+.tanchu{
+	display: none;
+	width: 28%;
+	height: 9rem;
+	position: fixed;
+	top: 4.4rem;
+	right: 0rem;
+	background: #fff;
+	box-shadow: -0.25rem .25rem 0.25rem #8E8E8E;
+	
+}
+.tanchu p{
+	width: 100%;
+	height: 50%;
+	font-size: 1.3rem;
+	color:#8E8E8E;
+	line-height: 100%;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-align: center;
+	    -ms-flex-align: center;
+	        align-items: center;
+	-webkit-box-pack: center;
+	    -ms-flex-pack: center;
+	        justify-content: center;
+	border-bottom: 1px solid #E5E5E5;
+}
+.tanchu p:nth-of-type(2){
+	border-bottom: none;
+}
+.tanchu img{
+	width: 20%;
+	height: ;
+}

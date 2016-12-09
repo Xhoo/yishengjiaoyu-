@@ -1,0 +1,139 @@
+body{
+	width: 100%;
+	height: 45rem;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-ms-flex-wrap: wrap;
+	    flex-wrap: wrap;
+	background-color: #F2F2F2;
+}
+header {
+	width: 100%;
+	height: 4.5rem;
+	background-color: #00D8C9;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-ms-flex-wrap: wrap;
+	flex-wrap: wrap;
+	-webkit-box-pack: justify;
+	-ms-flex-pack: justify;
+	justify-content: space-between;
+	-webkit-box-align: center;
+	-ms-flex-align: center;
+	align-items: center;
+	position: fixed;
+	top: 0;
+	left: 0;
+}
+
+header span {
+	display: block;
+	width: 2.2rem;
+	height: 2.2rem
+}
+
+.header-left img{
+	margin-left: 1.25rem;
+	height: 100%;
+}
+
+.header-center {
+	width: 10rem;
+	font-size: 1.8rem;
+	text-align: center;
+	line-height: 2.2rem;
+	color: #FFF
+}
+
+.header-right {
+	font-size: 1.25rem;
+	width: 2.2rem;
+	margin-right: 1.25rem;
+	color: #FFF;
+	white-space: nowrap;
+}
+
+.header-right img {
+	height: 100%;
+}
+.wall{
+	margin-top: 4.5rem;
+	width: 100%;
+	height: auto;
+	padding:0 1.2rem;
+	background: #FFFFFF;
+	box-sizing: border-box;
+}	
+.tanhao{
+	width: 8.5rem;
+	height: 12.7rem;
+	margin:0 auto;
+	margin-top: 4rem;
+	background: #fff;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	    -ms-flex-direction: column;
+	        flex-direction: column;
+	-webkit-box-pack: justify;
+	    -ms-flex-pack: justify;
+	        justify-content: space-between;
+	
+}
+.tanhao img{
+	/*display: block;*/
+	width: 8.5rem;
+	height: 8.5rem;
+	/*border-radius: 50%;
+	border: solid .25rem #FA3B3B;
+	font-size: 5.3rem;
+	color: #FA3B3B;*/
+	text-align: center;
+	line-height: 8.5rem;
+}
+.tanhao span{
+	display: block;
+	font-size: 1.7rem;
+	font-weight: bold;
+	color: #FA3B3B;
+	text-align: center;
+}
+.wall>p{
+	width: 100%;
+	height: 3.3rem;
+	color: #666;
+	font-size: 1.3rem;
+	font-weight: bold;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack: justify;
+	    -ms-flex-pack: justify;
+	        justify-content: space-between;
+}
+.wall p:nth-of-type(1){
+	margin-top: 4rem;
+}
+.wall>span{
+	display: block;
+	width: 100%;
+	height: 5rem;
+	font-size: 1.5rem;
+	font-weight: bold;
+	color: #00D9C9;
+	text-align: center;
+	line-height: 5rem;
+}
+.last{
+	width: 100%;
+	height: 2.6rem;
+	/*background: #f2f2f2 url(../img/back.png) repeat-x;*/
+	background: #f2f2f2 url(../img/sanjiao.png) repeat-x;
+	/*background-size: 100%;*/
+	/*border-image: url(../img/sanjiao.png) 30 30 round;*/
+	background-size: 3% 2.6rem ;
+}
